@@ -4,43 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio of your name">
-    <title>My Portfolio</title>
+    <title>Your Name - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <h1>Your Name</h1>
-        <p class="subtitle">Creative Developer & Artist</p>
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1>Your Name</h1>
+            <p>Creative Developer & Artist</p>
+            <a href="#projects" class="scroll-link">View My Work</a>
+        </div>
     </header>
 
-    <section id="about" class="content-section">
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Selected Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Short description of the project.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Short description of the project.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
         <h2>About Me</h2>
-        <p>Introduce yourself here. Describe your background, skills, and what you're passionate about. You can mention your experience in bio-art, creative projects, and your research.</p>
+        <p>Introduce yourself, explain your background, your skills, and your experiences.</p>
     </section>
 
-    <section id="projects" class="content-section">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of your first project. Explain what you did, the tools you used, and the outcome.</p>
-        </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of your second project. Share any technical details or creative processes involved.</p>
-        </div>
-        <!-- Add more project sections as needed -->
-    </section>
-
-    <section id="contact" class="content-section">
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
         <h2>Contact</h2>
         <p>Email: your.email@example.com</p>
+        <p>LinkedIn: <a href="#">Your LinkedIn Profile</a></p>
     </section>
 
     <footer>
